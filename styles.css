@@ -1,35 +1,36 @@
 .header{
     position: relative;
-    font-family: Martel;
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
     line-height: 40px;
-    text-align: center;
-
+    text-align: left;
+    padding-left: 25%;
+    padding-top: 5%;
     color: #000000;
 }
 .pic{
-    position: absolute;
+    position: relative;
     width: 303px;
     height: 360px;
-    left: 250px;
-    top: 350px;
+    left: 20%;
+    top: 25%;
     border-radius: 10%;
 }
 .txt{
     position: absolute;
-    width: 550px;
+    width: 500px;
     height: 323px;
     left: 575px;
-    top: 351px;
-
-    font-family: Mali;
+    top: 300px;
+    padding-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 40px;
-    text-align: center;
+    text-align: left;
 
     color: #000000;
 }
@@ -43,10 +44,13 @@
     padding: 10px 16px;
     text-decoration: none;
     color: grey;
-    font-family: Martel Sans;
+    font-family: 'Times New Roman', Times, sans-serif;
     font-size: 24px;
     transition: color 0.25s;
 }
 .navbar > a:hover{
     color: white;
+}
+.project-container{
+    text-align: center;
 }
