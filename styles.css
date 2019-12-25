@@ -1,0 +1,52 @@
+.header{
+    position: relative;
+    font-family: Martel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #000000;
+}
+.pic{
+    position: absolute;
+    width: 303px;
+    height: 360px;
+    left: 250px;
+    top: 350px;
+    border-radius: 10%;
+}
+.txt{
+    position: absolute;
+    width: 550px;
+    height: 323px;
+    left: 575px;
+    top: 351px;
+
+    font-family: Mali;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #000000;
+}
+.navbar{
+    background-color: #333;
+    line-height: 45px;
+    text-align: right;
+}
+.navbar > a{
+    display: inline;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: grey;
+    font-family: Martel Sans;
+    font-size: 24px;
+    transition: color 0.25s;
+}
+.navbar > a:hover{
+    color: white;
+}
