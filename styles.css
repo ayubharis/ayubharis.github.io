@@ -96,5 +96,7 @@
     color: lightgray
 }
 .project-container{
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 10% 0% 5%;
 }
